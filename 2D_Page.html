@@ -1,0 +1,47 @@
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="smth-ar.css">
+    </head>
+    <body id="body">
+        <div id="Upper">
+            <img src="Images\Logo_2.png"  id="logoImage" onclick="document.location='smth.html'">
+            <button id="button" >About Us</button>
+            <button id="button" >News</button>
+            <button id="button" onclick="RunFile()">Informations</button>
+            <button id="button" onclick="window.location.href = 'https://www.Instagram.com/red_one_dev'">Visit Our Instagram</button>
+            <button id="button" onclick="document.location='2D_Page-ar.html'">العربية</button>
+        </div>
+        <script type="text/javascript" language="javascript">
+
+            function RunFile() {
+        
+            WshShell = new ActiveXObject("WScript.Shell");
+        
+            WshShell.Run("c:/windows/system32/notepad.exe", 1, false);
+        
+            }
+        
+        </script>
+        <div id="Games">
+            <div id="GameIdentifyer">
+                <img src="Images\2D_Game_1.png" style="border-radius: 25px;height: 100%;">
+                <center><h3 style="color: white;margin: auto;margin-top: 20%;width: 60%;font-size: x-large;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">This is The Project I'm Working On Right Now, Compatible for Pc & Mobile, Enjoy!</h3></center>
+                <button id="button" style="font-size: x-large;width: 40%;margin-right: -5px;height: 100%;border-radius: 25px;">Download</button>   
+            </div>
+            <div id="GameIdentifyer">
+                <img src="Images\2D_Game_2.png" style="border-radius: 25px;height: 100%;">
+                <center><h3 style="color: white;margin: auto;margin-top: 20%;width: 60%;font-size: x-large;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">This Is A Top-Down Based Game, Still Needs Huge Of Work, Enjoy!</h3></center>
+                <button id="button" style="font-size: x-large;width: 40%;margin-right: -5px;height: 100%;border-radius: 25px;">Download</button>   
+            </div>
+            <div id="GameIdentifyer">
+                <img src="Images\Logo_2.png" style="border-radius: 25px;height: 100%;">
+                <center><h3 style="color: white;margin: auto;margin-top: 20%;width: 60%;font-size: x-large;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">This is The First 2D & Mobile Game I ever made, Unplayable BUT A good Way To Start Game Development.</h3></center>
+                <button id="button" style="font-size: x-large;width: 40%;margin-right: -5px;height: 100%;border-radius: 25px;">Download</button>   
+            </div>
+        </div>
+    </body>
+</html>
