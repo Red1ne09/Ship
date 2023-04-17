@@ -68,4 +68,14 @@
 }#backgroundImage{
     border-radius: 5px;
     margin-top: 15px;
+}#DownloadButton{
+    border: 0.05em solid rgb(255, 255, 255);
+    font-size: x-large;
+    width: 40%;
+    margin-right: -5px;height: 100%;
+    border-radius: 25px;
+    border: 0.05em solid white;
+    background: black;
+    color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serifs
 }

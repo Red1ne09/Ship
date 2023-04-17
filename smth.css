@@ -98,4 +98,12 @@
     font-size: x-large;
     font-weight: bold;
     box-shadow: 0 0 25px rgb(255, 255, 255);
+}#DownloadButton{
+    border: 0.05em solid rgb(255, 255, 255);
+    font-size: x-large;
+    width: 40%;
+    margin-right: -5px;height: 100%;
+    border-radius: 25px;
+    border: 0.05em solid white;
+    background-color: black;
 }
