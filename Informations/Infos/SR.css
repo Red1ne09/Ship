@@ -13,6 +13,7 @@ h2{
     color: red;
 }
 #Requirements{
+    justify-content: center;
     align-content: center;
     display: flex;
     border: 0.05em solid white;
@@ -20,10 +21,14 @@ h2{
     color: white;
     border-radius: 5px;
     border-width: 2px;
-    width:97.5%;
+    width:95%;
     height: 250px;
-    margin: 15px;
+    margin: 25px;
     box-shadow: 0 0 15px white;
+    transition: 250ms;
+}#Requirements:hover{
+    width: 100%;
+    border-radius: 7.5px;
 }
 #one{
     width: 100%;
