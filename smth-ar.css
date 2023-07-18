@@ -19,7 +19,6 @@
     border: 0.05em solid white;
     align-self: center;
     border-radius: 25px;
-    
     transform: scale(.9, .9);
     transition: 250ms;
 }#GameIdentifyer:hover{
@@ -34,7 +33,7 @@
     background-color: rgb(0, 0, 0);
 }
 #button{
-    border: 0.05em solid white;
+    border: 0.1em solid white;
     align-self: center;
     margin: 2.5px;
     margin-top: 2.5px;
