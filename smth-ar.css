@@ -6,7 +6,7 @@
     width:100%;
     height: 50px;
     display: flex;
-    box-shadow: 0 0 15px white;
+    /*box-shadow: 0 0 15px white;*/
 }#Games{
     margin-top: auto;
 }
@@ -99,4 +99,11 @@
 }#ScreenShots:hover{
     transform: scale(1.03, 1);
     box-shadow: 0 0 20px white;
+}#GameDetails{
+    margin: auto;
+    margin-top: 10px;
+    height: 90%;
+    border: 0.05em solid white;
+    border-radius: 5px;
+    align-self: center;
 }
