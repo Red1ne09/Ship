@@ -94,7 +94,7 @@
     font-size: larger;
     margin-top: 25px;
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: sans-serif;
     transition: 250ms;
 }#description:hover{
     font-size: x-large;

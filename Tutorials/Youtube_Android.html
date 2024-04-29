@@ -1,0 +1,56 @@
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>RedOne [Game Dev]</title>
+        <link rel="stylesheet" href="Tutorials.css">
+    </head>
+    <body id="body" style="font-family: 'Lucida Sans';background-color: black;">
+        <div id="Upper">
+            <img src="Images/Logo_2.png"  id="logoImage" onclick="document.location='index.html'">
+            <button id="button" >About Us</button>
+            <button id="button" >News</button>
+            <button id="button" onclick="document.location='Informations/Informations.html'">Informations</button>
+            <button id="button" onclick="window.location.href = 'https://www.Instagram.com/red_one_dev'">Visit Our Instagram</button>
+            <button id="button" onclick="document.location='AboutMe-ar.html'">العربية</button>
+        </div>
+        <div id="description">
+            <H1 style="color: brown;">Code To Copy:</H1>
+            <p style="margin-top: 20px;font-family: system;padding-left: 25px;">
+                from pytube import YouTube<br>
+                import os<br>
+                from pytube.innertube import _default_clients<br>
+                <br>
+                <br>
+                _default_clients["ANDROID_MUSIC"] = _default_clients["ANDROID_CREATOR"]<br>
+                <br>
+                def download_video(url, save_dir):<br>
+                    try:<br>
+                        yt = YouTube(url)<br>
+                        streams = yt.streams.all()<br>
+                        for i, stream in enumerate(streams):<br>
+                            print(f"{i+1}. {stream.resolution} - {stream.mime_type}")<br>
+                            <br>
+                        choice = int(input("Enter the number corresponding to the format you want to download: "))<br>
+                        <br>
+                        if 1 <= choice <= len(streams):<br>
+                            selected_stream = streams[choice - 1]<br>
+                            file_path = selected_stream.download(save_dir)<br>
+                            print("Download completed!")<br>
+                            print("File saved to:", file_path)<br>
+                        else:<br>
+                            print("Invalid choice.")<br>
+                            <br>
+                    except Exception as e:<br>
+                        print(f"Error: {e}")<br>
+                        <br>
+                if __name__ == "__main__":<br>
+                    video_url = input("Enter the YouTube video URL: ")<br>
+                    save_directory = 'Downloads'<br>
+                    download_video(video_url, save_directory)<br>
+                    <br>
+            </p>
+        </div>
+    </body>
+</html>
